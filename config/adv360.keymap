@@ -27,11 +27,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&none    &kp N1     &kp N2            &kp N3              &kp N4          &kp N5  &tog 1                                                                                   &mo 3      &kp N6  &kp N7           &kp N8               &kp N9             &kp N0    &none
-&none    &kp Q      &kp W             &kp E               &kp R           &kp T   &none                                                                                    &none      &kp Y   &kp U            &kp I                &kp O              &kp P     &kp BSLH
-&kp ESC  &kp A      &hm LEFT_SHIFT S  &hm LEFT_CONTROL D  &hm LEFT_ALT F  &kp G   &none          &kp MINUS               &none         &none      &kp EQUAL                &none      &kp H   &hm RIGHT_ALT J  &hm RIGHT_CONTROL K  &hm RIGHT_SHIFT L  &kp SEMI  &kp SQT
-&kp TAB  &kp Z      &kp X             &kp C               &kp V           &kp B                                          &kp HOME      &kp PG_UP                                      &kp N   &kp M            &kp COMMA            &kp DOT            &kp FSLH  &kp RSHFT
-&mo 2    &kp GRAVE  &kp CAPS          &kp LEFT            &kp RIGHT               &kp BACKSPACE  &hm LEFT_COMMAND SPACE  &kp END       &kp PG_DN  &hm SPACE RIGHT_COMMAND  &kp ENTER          &kp UP           &kp DOWN             &kp LBKT           &kp RBKT  &mo 2
+&none    &kp N1            &kp N2              &kp N3          &kp N4              &kp N5  &tog 1                                                                                   &mo 3      &kp N6  &kp N7               &kp N8           &kp N9               &kp N0                &none
+&none    &kp Q             &kp W               &kp E           &kp R               &kp T   &none                                                                                    &none      &kp Y   &kp U                &kp I            &kp O                &kp P                 &kp BSLH
+&kp ESC  &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_COMMAND F  &kp G   &none          &kp MINUS               &none         &none      &kp EQUAL                &none      &kp H   &hm RIGHT_COMMAND J  &hm RIGHT_ALT K  &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMI  &kp SQT
+&kp TAB  &kp Z             &kp X               &kp C           &kp V               &kp B                                          &kp HOME      &kp PG_UP                                      &kp N   &kp M                &kp COMMA        &kp DOT              &kp FSLH              &kp RSHFT
+&mo 2    &kp GRAVE         &none               &kp LEFT        &kp RIGHT                   &kp BACKSPACE  &hm LEFT_COMMAND SPACE  &kp END       &kp PG_DN  &hm SPACE RIGHT_COMMAND  &kp ENTER          &kp UP               &kp DOWN         &kp LBKT             &kp RBKT              &mo 2
             >;
         };
 
@@ -49,11 +49,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &kp N7  &kp N8  &kp N9   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp N4  &kp N5  &kp N6   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp N1  &kp N2  &kp N3   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &kp N0          &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3      &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none      &trans  &kp N7  &kp N8  &kp N9   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none      &trans  &kp N4  &kp N5  &kp N6   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                     &trans  &kp N1  &kp N2  &kp N3   &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &kp N0  &kp ENTER          &trans  &trans  &trans   &trans   &trans
             >;
         };
 
