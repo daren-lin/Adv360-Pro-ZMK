@@ -14,12 +14,12 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <240>;
-            quick_tap_ms = <200>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <200>;
+            quick-tap-ms = <175>;
         };
 
         hm_mo_layer: hm_mo_layer {
